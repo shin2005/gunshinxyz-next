@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <>
       <div
         className={css`
-          background-image: url("/cover3.jpg");
+          background-image: url("/cover.jpg");
           background-size: cover;
           overflow: hidden;
           text-align: center;
