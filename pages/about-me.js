@@ -1,3 +1,7 @@
 export default function AboutMe() {
-  return <h1>About Me</h1>;
+  return (
+    <div style={{ color: "#fff" }}>
+      <h1>About Me</h1>
+    </div>
+  );
 }
