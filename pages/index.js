@@ -1,8 +1,12 @@
 import ReactPlayer from "react-player";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div style={{ padding: "1rem", color: "#fff" }}>
+      <Head>
+        <title>Gun XYZ: Portfolio</title>
+      </Head>
       <h1>Portfolio</h1>
       <h2>School: </h2>
       <p>I go to Yeoksam Middle School I am second grade </p>
