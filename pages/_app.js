@@ -1,13 +1,13 @@
-import Link from "next/link";
-import { css } from "emotion";
-import "../styles/global.css";
+import Link from 'next/link';
+import { css } from 'emotion';
+import '../styles/global.css';
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <div
         className={css`
-          background-image: url("/cover.jpg");
+          background-image: url('/cover.jpg');
           background-size: cover;
           overflow: hidden;
           text-align: center;
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
           <a>Home</a>
         </Link>
         <Link href="/about-me">
-          <a>About Me</a>
+          <a>About Myself</a>
         </Link>
         <Link href="/my-work">
           <a>My Work</a>
