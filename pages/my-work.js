@@ -9,14 +9,14 @@ export default function MyWork() {
       <h1>My Work</h1>
       <h2>SNS</h2>
       <h3>Twitter</h3>
-      <h4>
+      <h4 style={{ marginLeft: '2rem' }}>
         My Twitter account:{' '}
         <a href="https://twitter.com/cieloeste0303" target="blank">
           @cieloeste0303
         </a>
       </h4>
       <h3>Youtube</h3>
-      <h4>
+      <h4 style={{ marginLeft: '3rem' }}>
         My Youtube page:{' '}
         <a
           href="https://www.youtube.com/channel/UCEaSW6TjclcuZzx7c1XUlvg?view_as=subscriber"
@@ -25,8 +25,8 @@ export default function MyWork() {
           Youtube
         </a>
       </h4>
-      <h3>Github</h3>
-      <h4>
+      <h3 style={{ marginLeft: '0.5rem' }}>Github</h3>
+      <h4 style={{ marginLeft: '3rem' }}>
         My Github page:{' '}
         <a href="https://github.com/shin2005" target="blank">
           shin2005
