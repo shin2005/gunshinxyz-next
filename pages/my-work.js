@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import css from 'styles/my-work.css';
 
 export default function MyWork() {
   return (

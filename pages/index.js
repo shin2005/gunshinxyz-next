@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <h1>Portfolio</h1>
       <h2>School: </h2>
-      <p>I go to Yeoksam Middle School I am second grade </p>
+      <p>I go to Yeoksam Middle School I am third grade </p>
       <h2>Recent awards / achievements: Award in science writing contest</h2>
       <p>
         I recently participated in a science contest. It was a writing contest
