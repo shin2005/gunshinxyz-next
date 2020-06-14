@@ -9,7 +9,7 @@ export default function AboutMe() {
       <h1>Hobbies</h1>
       <h3>Games</h3>
       <h4>Minecraft</h4>
-      <img src="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=en" />
+      <img src="https://lh3.googleusercontent.com/yAtZnNL-9Eb5VYSsCaOC7KAsOVIJcY8mpKa0MoF-0HCL6b0OrFcBizURHywpuip-D6Y" />
     </div>
   );
 }
