@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
           background-size: cover;
           overflow: hidden;
           text-align: center;
-          height: '100vh';
+          img-height: '100vh';
           a {
             color: #fff;
             margin-right: 2rem;
