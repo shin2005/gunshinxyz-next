@@ -38,7 +38,10 @@ export default function AboutMe() {
       </div>
       <p style={{ color: '#fff', padding: '5rem' }}>
         Civilization VI is a game where you can build your own civilizations,
-        and make your country into the greatest country on Earth.
+        and make your country into the greatest country on Earth. The game
+        generates a world of your own choice and you can found cities, develop
+        technology from the stone ax to a nuclear missile. You can also develop
+        culture, which gives you additional bonuses in the game.
       </p>
     </div>
   );
