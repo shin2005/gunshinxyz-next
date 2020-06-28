@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function AboutMe() {
   return (
-    <div style={{ padding: '1rem', color: '#fff' }}>
+    <div style={{ padding: '1rem', color: '#fff', height: '100%' }}>
       <div style={{ padding: '1rem', color: '#fff' }}>
         <Head>
           <title>Gun XYZ: Hobbies</title>

@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
           background-size: cover;
           overflow: hidden;
           text-align: center;
-          img-height: '100vh';
+          img-height: '100%';
           a {
             color: #fff;
             margin-right: 2rem;
@@ -26,6 +26,9 @@ export default function App({ Component, pageProps }) {
         </Link>
         <Link href="/my-work">
           <a>My Work</a>
+        </Link>
+        <Link href="/writings">
+          <a>Writings</a>
         </Link>
         <Component {...pageProps} />
       </div>

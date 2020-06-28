@@ -1,7 +1,20 @@
 import ReactPlayer from 'react-player';
+import { useEffect, useState } from 'react';
 import Head from 'next/head';
+import request from 'axios';
 
 export default function Home() {
+  const [userName, setUsername] = useState('');
+  useEffect(() => {
+    loadUser();
+
+    async function loadUser() {
+      const { data } = await request.get('/api/users?doc=Uksspc6IdHmAng8oJh6t');
+      console.log(data);
+      setUsername(data.username);
+    }
+  }, []);
+
   return (
     <div style={{ padding: '1rem', color: '#fff' }}>
       <Head>
@@ -96,7 +109,7 @@ export default function Home() {
         change them quickly. So I think that being aware is very important.
       </p>
       <h2>My Devices</h2>
-      <p>1. iPhone 6 Gold 16GB</p>
+      <p>1. iPhone 6S Silver 64GB</p>
       <p>2. Airpods 1st generation</p>
       <p>3. 12.9 inch iPad Pro Space Grey 64GB 3rd generation</p>
       <p>4. Early 2015 MacBook Pro 13 inch 128GB</p>
